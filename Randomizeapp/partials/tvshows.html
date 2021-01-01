@@ -1,0 +1,10 @@
+<div>
+    <span data-ng-repeat="serie in retur_data">
+      
+            <!--<h1>{{s.name}}</h1>
+            <p>Popularity: {{s.popularity}}</p> -->
+            <a ng-click="$routeParams.itemId =serie.id" href="#!/details">
+                <img class="poster" ng-src="https://image.tmdb.org/t/p/w185_and_h278_bestv2{{serie.poster_path}}">
+            </a>
+        </span>
+</div>

@@ -1,0 +1,14 @@
+{
+  "name": "iconManifest",
+  "icons": [
+    {
+      "src": "../playstore-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "density": 1.0
+    }
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "portrait"
+}
